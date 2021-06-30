@@ -130,22 +130,22 @@
 # 11 - LTS
 
 - JEP 181: Nest-Based Access Control
-2. JEP 309: Dynamic Class-File Constants
-3. JEP 315: Improve Aarch64 Intrinsics
-4. JEP 318: Epsilon: A No-Op Garbage Collector (Experimental)
-5. JEP 320: Remove the Java EE and CORBA Modules
-6. JEP 321: HTTP Client (Standard)
-7. JEP 323: Local-Variable Syntax for Lambda Parameters
-8. JEP 324: Key Agreement with Curve25519 and Curve448
-9. JEP 327: Unicode 10
-10. JEP 328: Flight Recorder
-11. JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms
-12. JEP 330: Launch Single-File Source-Code Programs
-13. JEP 331: Low-Overhead Heap Profiling
-14. JEP 332: Transport Layer Security (TLS) 1.3
-15. JEP 333: ZGC: A Scalable Low-Latency Garbage Collector (Experimental)
-16. JEP 335: Deprecate the Nashorn JavaScript Engine
-17. JEP 336: Deprecate the Pack200 Tools and API
+- JEP 309: Dynamic Class-File Constants
+- JEP 315: Improve Aarch64 Intrinsics
+- JEP 318: Epsilon: A No-Op Garbage Collector (Experimental)
+- JEP 320: Remove the Java EE and CORBA Modules
+- JEP 321: HTTP Client (Standard)
+- JEP 323: Local-Variable Syntax for Lambda Parameters
+- JEP 324: Key Agreement with Curve25519 and Curve448
+- JEP 327: Unicode 10
+- JEP 328: Flight Recorder
+- JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms
+- JEP 330: Launch Single-File Source-Code Programs
+- JEP 331: Low-Overhead Heap Profiling
+- JEP 332: Transport Layer Security (TLS) 1.3
+- JEP 333: ZGC: A Scalable Low-Latency Garbage Collector (Experimental)
+- JEP 335: Deprecate the Nashorn JavaScript Engine
+- JEP 336: Deprecate the Pack200 Tools and API
 
 # 12
 
@@ -171,21 +171,21 @@
 # 14
 
 - JEP 305: Pattern Matching for instanceof (Preview)
-2. JEP 343: Packaging Tool (Incubator)
-3. JEP 345: NUMA-Aware Memory Allocation for G1
-4. JEP 349: JFR Event Streaming
-5. JEP 352: Non-Volatile Mapped Byte Buffers
-6. JEP 358: Helpful NullPointerExceptions
-7. JEP 359: Records (Preview)
-8. JEP 361: Switch Expressions (Standard)
-9. JEP 362: Deprecate the Solaris and SPARC Ports
-10. JEP 363: Remove the Concurrent Mark Sweep (CMS) Garbage Collector
-11. JEP 364: ZGC on macOS (Experimental)
-12. JEP 365: ZGC on Windows (Experimental)
-13. JEP 366: Deprecate the ParallelScavenge + SerialOld GC Combination
-14. JEP 367: Remove the Pack200 Tools and API
-15. JEP 368: Text Blocks (Second Preview)
-16. JEP 370: Foreign-Memory Access API (Incubator)
+- JEP 343: Packaging Tool (Incubator)
+- JEP 345: NUMA-Aware Memory Allocation for G1
+- JEP 349: JFR Event Streaming
+- JEP 352: Non-Volatile Mapped Byte Buffers
+- JEP 358: Helpful NullPointerExceptions
+- JEP 359: Records (Preview)
+- JEP 361: Switch Expressions (Standard)
+- JEP 362: Deprecate the Solaris and SPARC Ports
+- JEP 363: Remove the Concurrent Mark Sweep (CMS) Garbage Collector
+- JEP 364: ZGC on macOS (Experimental)
+- JEP 365: ZGC on Windows (Experimental)
+- JEP 366: Deprecate the ParallelScavenge + SerialOld GC Combination
+- JEP 367: Remove the Pack200 Tools and API
+- JEP 368: Text Blocks (Second Preview)
+- JEP 370: Foreign-Memory Access API (Incubator)
 
 # 15
 
