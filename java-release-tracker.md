@@ -27,10 +27,10 @@
 # 1.4
 
 - `assert` keyword
-- [Regular expressions](https://howtodoinjava.com/java-regular-expression-tutorials/)
+- Regular expressions
 - Exception chaining
 - Internet Protocol version 6 (IPv6) support
-- [New I/O; NIO](https://howtodoinjava.com/java-nio-tutorials/)
+- New I/O; NIO
 - Logging API
 - Image I/O API
 - Integrated XML parser and XSLT processor (JAXP)
@@ -40,10 +40,10 @@
 
 # 1.5
 
-- [Generics](https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/)
-- [Annotations](https://howtodoinjava.com/java/annotations/complete-java-annotations-tutorial/)
+- Generics
+- Annotations
 - Autoboxing/unboxing
-- [Enumerations](https://howtodoinjava.com/java/enum/enum-tutorial/)
+- Enumerations
 - Varargs
 - Enhanced `for each` loop
 - Static imports
