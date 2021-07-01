@@ -1,0 +1,55 @@
+
+CDP - Abraham Became First President of States
+-----
+Abstract Factory : scope- object, def - super factory,  when - to hide names of actual impleamented class, key - abstract ice cream factory of different brands
+Builder : scope- object, def - create complex object step by step,  when - multiple optional steps required to create, key - house architect/builder
+
+Q - What is the difference between Abstract Factory/Factory and Builder ?
+
+Factory : scope- class, def - common interface to create different object,  when - we have a supper class/interface for different sub-classes, key - ice cream factory of different flavours
+Prototype : scope- object, def - cloned to produce new objects,  when - object creation is time consuming/costly, key - forest, city and dunfeon game levels
+
+Q - What is the differece between Abstract Facotory/Factory and Prototype ?
+
+Singleton : scope- object, def - restriction of creating single object,  when - only one instace is required, key - bank account / adhaar card
+
+SDP - ABCD FF P
+-----
+
+Adapter - scope- object;class, def - convert interface of a class to another,  when - resuable class to work with incompatible interface, key - iphone and nexus earphone jack
+
+Q - what is the difference between Decorator and Adapter ?
+
+Bridge - scope- object, def - create a bridge between abstraction and implemetaion,  when - we need switch implementaion at runtime, key - bridge remote for different tv
+
+Q - what is the difference between Adapter and Bridge ?
+
+Composite - scope- object, def - composes object in tree structure,  when - access and manupulate whole hirarchy as single object, key - employee class for subordinates in company
+Decorator - scope- object, def - allows functionaly to object without altering structure, when - to get rid of too many subclasses by creating separate class, key - cake decoration price calculator
+Facade - scope- object, def - creates an interface that is served as an interface to other interfaces within a complex system, when - needs a simplified interface to the overall functionality of a complex system, key - common remote for tv, settop box and sound system
+
+Q - what is the difference between mediator and facade desing pattern ?
+
+Flyweight - scope- object, def - reuse already existing similar kind objects by storing them and creates new object when no matching object is found,  when - reduces memory foot print and keeps app away from java.lang.OutOfMemoryError, key - landscape of different type of star
+
+Proxy - scope- object, def - to represent another object,  when - object is expensive or heavy weight then proxy with required fields, key - proxy api for weather
+
+BDP - 2MICS On TV
+-----
+Mediator - scope- object, def - defines simplified communication between classes,  when - communication logic between objects is complex, key - Air Trafic Controller
+Memento - scope- object, def - capture and restore object's internal state,  when - undo/restore is required in later stage, key - game save points
+Interpreter - scope- class, def - provides a way to evaluate language grammar or expression,  when -  voice/text/expression command interpreter, key - MapIntToChar with custom grammar
+Iterator - scope- object, def - access element of collection without knowing the underling ds,  when -  standard traversal protocol for collections, key - FB friends list interator
+Chain of Responsibility - scope- object, def - passing a request between chain of objects,  when - processing pipeline with many responsible handlers, key - University mail system
+Command - scope- object, def - encapsulate all information needed to perform an action,  when - invoker should be decoupled from the object handling the invocation, key - AC start and stop commands
+State - scope- object, def - allows an object to behave differently depending on its internal state,  when - complex conditions tie object behaviour to it's state, key - Printer push button to on and of
+Stratergy - scope- object, def - encapsulate a set of interchangeable algorithms,  when - choose an algorithm at run time, key - Crevasse Crossing Stratergy
+Observer - scope- object, def - updates subscriber objects when a change is made to the publisher object's state,  when - notification and events, key - Office notification to class notice boards
+Null Object - scope- object, def - negates the need to search for the null condition,  when - abstract the handling of null away from the client, key - train status of invalid train
+Template - scope- class, def - deferes exact steps of algo to subclasses,  when -  subclass overrides super class algo/steps, key - Juice Making Algo
+Visitor - scope- object, def - defines a new operation to class without any change,  when - perform opoeration on collection of object, key - visiting faculty institute
+
+
+
+
+
