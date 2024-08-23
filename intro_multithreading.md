@@ -1,3 +1,21 @@
+Module 1: Introduction to Multithreading
+1.1 Basics of Multithreading
+
+Overview of Threads
+Process vs. Thread
+Benefits and Challenges of Multithreading
+1.2 Creating and Managing Threads
+
+Creating Threads by Extending Thread Class
+Creating Threads by Implementing Runnable Interface
+Thread Lifecycle and States
+Thread Priority and Daemon Threads
+1.3 Thread Management
+
+Starting and Stopping Threads
+Joining Threads
+Thread.sleep() and Thread.yield()
+
 ```java
 class MyThread extends Thread {
   public void run() {
