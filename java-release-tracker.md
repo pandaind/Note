@@ -1,4 +1,3 @@
-Here's a simple and updated list of Java versions with their key features:
 
 ## Java Versions and Key Features
 
