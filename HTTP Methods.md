@@ -163,3 +163,51 @@
 
 -   **CSRF Protection**: Use tokens to protect against Cross-Site Request Forgery (CSRF) attacks, especially for state-changing methods like `POST`, `PUT`, `DELETE`, and `PATCH`.
 -   **HTTPS**: Always use HTTPS to encrypt data in transit and protect against man-in-the-middle attacks.
+
+
+
+## ETags (Entity Tags) 
+
+are a mechanism used for web cache validation and conditional requests. They help in reducing bandwidth and improving performance by allowing clients to make conditional requests. Here's how you can use ETags effectively:
+
+### How ETags Work
+1. **Server Response**: When a server responds to a `GET` request, it includes an `ETag` header in the response. This `ETag` is a unique identifier representing the current version of the resource.
+   ```http
+   HTTP/1.1 200 OK
+   ETag: "abc123"
+   Content-Type: application/json
+   Content-Length: 1234
+
+   { "data": "example" }
+   ```
+
+2. **Client Request**: The client stores this `ETag` and includes it in subsequent requests using the `If-None-Match` header to check if the resource has changed.
+   ```http
+   GET /resource HTTP/1.1
+   Host: example.com
+   If-None-Match: "abc123"
+   ```
+
+3. **Server Validation**: The server compares the `ETag` provided by the client with the current version of the resource.
+   - If the resource has not changed, the server responds with a `304 Not Modified` status, indicating that the client can use the cached version.
+     ```http
+     HTTP/1.1 304 Not Modified
+     ```
+   - If the resource has changed, the server responds with a `200 OK` status and the new resource, along with a new `ETag`.
+     ```http
+     HTTP/1.1 200 OK
+     ETag: "def456"
+     Content-Type: application/json
+     Content-Length: 1234
+
+     { "data": "new example" }
+     ```
+
+### Implementing ETags
+#### On the Server Side
+- **Generate ETags**: Generate ETags based on the content of the resource. This can be a hash of the content, a version number, or a timestamp.
+- **Include ETags in Responses**: Include the `ETag` header in responses for resources that can be cached.
+
+#### On the Client Side
+- **Store ETags**: Store the `ETag` received from the server.
+- **Use Conditional Requests**: Include the stored `ETag` in the `If-None-Match` header for subsequent requests to the same resource.
